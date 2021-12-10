@@ -7,12 +7,12 @@ D1,TBIRTH_YEAR,Description:,Year of birth,What year were you born? Please enter 
 ,,Values:,1933-2003,,,Changed Range in January 2021 from 1932:2002
 ,,Universe:,All person's born before 2003,,,
 ,,Internal Notes:,Topcoded 1933-2003,,,
-Recode of D2,RHISPANIC,Description,Hispanic origin,"Are you of Hispanic, Latino, or Spanish origin? - Selected Choice",1:2,"1, 2, 3, 3.1, 3.2"
+Recode of D2,RHISPANIC,Description,Hispanic origin,"Are you of Hispanic, Latino, or Spanish origin? - Selected Choice",1:02,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) No, not of Hispanic, Latino, or Spanish origin  
 2) Yes, of Hispanic, Latino, or Spanish origin",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-Recode of D3,RRACE,Description,Race,What is your race? Please select all that apply. - Selected Choice - White,1:4,"1, 2, 3, 3.1, 3.2"
+Recode of D3,RRACE,Description,Race,What is your race? Please select all that apply. - Selected Choice - White,1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) White, Alone
 2) Black, Alone
 3) Asian, Alone
@@ -21,7 +21,7 @@ Recode of D3,RRACE,Description,Race,What is your race? Please select all that ap
 ,,Internal Notes,,,,
 D4,EEDUC,Description,Educational attainment,"What is the highest
 degree or level of school you have completed? Select
-only one answer.",1:7,"1, 2, 3, 3.1, 3.2"
+only one answer.",1:07,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Less than high school
 2) Some high school
 3) High school graduate or equivalent (for example GED)
@@ -32,7 +32,7 @@ only one answer.",1:7,"1, 2, 3, 3.1, 3.2"
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
 D5,MS,Description,Marital status,"What is your marital
-status? Select only one answer.",1:5,"1, 2, 3, 3.1, 3.2"
+status? Select only one answer.",1:05,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Now married 
 2) Widowed
 3) Divorced
@@ -42,12 +42,12 @@ status? Select only one answer.",1:5,"1, 2, 3, 3.1, 3.2"
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-D6,EGENID_BIRTH,Description,Gender at birth,"What sex were you assigned at birth, on your original birth certificate?",1:2,3.2
+D6,EGENID_BIRTH,Description,Gender at birth,"What sex were you assigned at birth, on your original birth certificate?",1:02,3.2
 ,,Values,"1) Male 
 2) Female",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-D7,GENID_DESCRIBE,Description,Current gender identity,"Do you currently describe yourself as male, female or transgender?",1:4,3.2
+D7,GENID_DESCRIBE,Description,Current gender identity,"Do you currently describe yourself as male, female or transgender?",1:04,3.2
 ,,Values,"1) Male 
 2) Female
 3) Transgender
@@ -56,7 +56,7 @@ D7,GENID_DESCRIBE,Description,Current gender identity,"Do you currently describe
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-D9,SEXUAL_ORIENTATION,Description,Sexual orientation,Which of the following best represents how you think of yourself?,1:5,3.2
+D9,SEXUAL_ORIENTATION,Description,Sexual orientation,Which of the following best represents how you think of yourself?,1:05,3.2
 ,,Values,"1) Gay or lesbian
 2) Straight, that is not gay or lesbian
 3) Bisexual
@@ -156,14 +156,14 @@ D14,ACTVDUTY5,Description,Active duty or reserves self or spouse,"Are you or you
 -88) Missing / Did not report",,,Added in cycle 27
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-VAC1,RECVDVACC,Description,Received COVID - 19 vaccine,Have you received a COVID-19 vaccine?,1:2,"3.1, 3.2"
+VAC1,RECVDVACC,Description,Received COVID - 19 vaccine,Have you received a COVID-19 vaccine?,1:02,"3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Added in cycle 22
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-VAC2,DOSESRV,Description,Received or plan for all doses,Did you receive (or do you plan to receive) all required doses? ,1:3,"3.1, 3.2"
+VAC2,DOSESRV,Description,Received or plan for all doses,Did you receive (or do you plan to receive) all required doses? ,1:03,"3.1, 3.2"
 ,,Values,"1) Yes, received all required doses
 2) Yes, plan to receive all required doses
 3) No, don't plan to receive all required doses
@@ -171,7 +171,7 @@ VAC2,DOSESRV,Description,Received or plan for all doses,Did you receive (or do y
 -88) Missing / Did not report",,,Added in cycle 22. Revised answer categories for phase 3.2.
 ,,Universe,RECVDACC = 1,,,
 ,,Internal Notes,,,,
-VAC3,GETVACRV,Description,Intention on getting vaccine,"Once a  vaccine to prevent COVID-19 is available to you, would you…",1:5,"3.1, 3.2"
+VAC3,GETVACRV,Description,Intention on getting vaccine,"Once a  vaccine to prevent COVID-19 is available to you, would you…",1:05,"3.1, 3.2"
 ,,Values,"1) Definitely get a vaccine
 2) Probably get a vaccine
 3) Be unsure about getting a vaccine
@@ -259,7 +259,7 @@ VAC4,WHYNORV13,Description,Why not get vaccine,"Which of the following, if any, 
 -88) Missing / Did not report",,,Added in cycle 22. Revised design and answer categories for phase 3.2.
 ,,Universe,if DOSESRV = 3 or GETVACRV in 2:5,,,
 ,,Internal Notes,,,,
-VAC5,KIDDOSES,Description,Children received or plan for all doses,Have any of the children aged 12-17 years living in your household received at least one dose of a COVID-19 vaccine?,1:3,3.2
+VAC5,KIDDOSES,Description,Children received or plan for all doses,Have any of the children aged 12-17 years living in your household received at least one dose of a COVID-19 vaccine?,1:03,3.2
 ,,Values,"1) Yes
 2) No
 3) Don't know
@@ -267,7 +267,7 @@ VAC5,KIDDOSES,Description,Children received or plan for all doses,Have any of th
 -88) Missing / Did not report",,,
 ,,Universe,KIDS_12_17Y = 1,,,
 ,,Internal Notes,,,,
-VAC6,KIDGETVAC,Description,Intention on getting children vaccine,"Now that vaccines to prevent COVID-19 are available to most children between ages 12 and 17, will the parents or guardians of children ages 12-17 living in your household…",1:6,3.2
+VAC6,KIDGETVAC,Description,Intention on getting children vaccine,"Now that vaccines to prevent COVID-19 are available to most children between ages 12 and 17, will the parents or guardians of children ages 12-17 living in your household…",1:06,3.2
 ,,Values,"1) Definitely get the children a vaccine
 2) Probably get the children a vaccine
 3) Be unsure about getting the children a vaccine
@@ -362,7 +362,7 @@ VAC7,KIDWHNO14,Description,Why not get children vaccinated,"Which of the followi
 -88) Missing / Did not report",,,
 ,,Universe,if  KIDGETVAC in 2:5,,,
 ,,Internal Notes,,,,
-VAC8,HADCOVID,Description,Doctor or provider told you that you have COVID,Has a doctor or other health care provider ever told you that you have COVID-19?,1:3,"3.1, 3.2"
+VAC8,HADCOVID,Description,Doctor or provider told you that you have COVID,Has a doctor or other health care provider ever told you that you have COVID-19?,1:03,"3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 3) Not Sure
@@ -372,7 +372,7 @@ VAC8,HADCOVID,Description,Doctor or provider told you that you have COVID,Has a 
 ,,Internal Notes,,,,
 EMP1,WRKLOSSRV,Description,Recent household job loss,"Now we are going to ask about your employment. 
 
-Have you, or has anyone in your household experienced a loss of employment income in the last 4 weeks?  Select only one answer. ",1:2,"1, 2, 3, 3.1, 3.2"
+Have you, or has anyone in your household experienced a loss of employment income in the last 4 weeks?  Select only one answer. ",1:02,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -380,14 +380,14 @@ Have you, or has anyone in your household experienced a loss of employment incom
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
 EMP2,ANYWORK,Description,Employment status for last 7 days,"Now we are going to ask about your employment.
-In the last 7 days, did you do ANY work for either pay or profit? Select only one answer.",1:2,"1, 2, 3, 3.1, 3.2"
+In the last 7 days, did you do ANY work for either pay or profit? Select only one answer.",1:02,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-EMP3,KINDWORK,Description,Sector of employment,"Are you employed by government, by a private company, a nonprofit organization or are you self-employed or working in a family business? Select only one answer.",1:5,"1, 2, 3, 3.1, 3.2"
+EMP3,KINDWORK,Description,Sector of employment,"Are you employed by government, by a private company, a nonprofit organization or are you self-employed or working in a family business? Select only one answer.",1:05,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Government
 2) Private company
 3) Non-profit organization including tax exempt and charitable organizations
@@ -415,7 +415,7 @@ Select only one answer. - Selected Choice",1:13,"1, 2, 3, 3.1, 3.2"
 -88) Missing / Did not report",,,Cycle 22 1.6.2021 Answer category '11' added for transportation related reasons for not working.
 ,,Universe,ANYWORK = 2,,,
 ,,Internal Notes,,,,
-EMP5,WKVOL,Description,Work or volunteer outside the home.,"In the last 7 days, have you worked or volunteered outside your home? (select one)",1:2,"3.1, 3.2"
+EMP5,WKVOL,Description,Work or volunteer outside the home.,"In the last 7 days, have you worked or volunteered outside your home? (select one)",1:02,"3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -448,7 +448,7 @@ EMP6,SETTING,Description,Work or volunteer setting outside the home.,"In the las
 ,,Internal Notes,,,,
 EMP7,CHLDCARE,Description,Childcare impacts due to pandemic,"Next, we are going to ask about the childcare arrangements for children in the household. 
 
-At any time in the last 4 weeks, were any children in the household unable to attend daycare or another childcare arrangement as a result of child care being closed, unavailable, unaffordable, or because you are concerned about your child’s safety in care?  Please include before school care, after school care, and all other forms of childcare that were unavailable. Select only one answer. ",1:3,"3.1, 3.2"
+At any time in the last 4 weeks, were any children in the household unable to attend daycare or another childcare arrangement as a result of child care being closed, unavailable, unaffordable, or because you are concerned about your child’s safety in care?  Please include before school care, after school care, and all other forms of childcare that were unavailable. Select only one answer. ",1:03,"3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 3) Not applicable
@@ -512,14 +512,14 @@ EMP8,CHLDIMPCT9,Description,Childcare impact - None of the above,Which if any of
 ,,Internal Notes,This is an exclusive category,,,
 SPN1,CTC_YN,Description,Receipt and use of Child Tax Credit (CTC),"The next questions ask about your household’s spending in last 4 weeks. Please only include experiences that occurred in the last 4 weeks.
 
-In the last 4 weeks, did you or anyone in your household receive a “Child Tax Credit” payment, that is an advance payment from the expansion of the child tax credit as part of the Federal Government‘s 2021 American Rescue Plan? Please report ""yes"" if you received the payment as a paper check or as a direct deposit. ",1:2,3.2
+In the last 4 weeks, did you or anyone in your household receive a “Child Tax Credit” payment, that is an advance payment from the expansion of the child tax credit as part of the Federal Government‘s 2021 American Rescue Plan? Please report ""yes"" if you received the payment as a paper check or as a direct deposit. ",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Changed from EIP to CTC for Phase 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN2,CTC_USE,Description,Receipt and use of Child Tax Credit (CTC),"Thinking about your use of the payments from the “Child Tax Credit"" did you:",1:3,3.2
+SPN2,CTC_USE,Description,Receipt and use of Child Tax Credit (CTC),"Thinking about your use of the payments from the “Child Tax Credit"" did you:",1:03,3.2
 ,,Values,"1) Mostly spend it 
 2) Mostly save it 
 3) Mostly use it to pay off debt
@@ -629,7 +629,7 @@ SPN3,CTCSPND17,Description,Spending use of Child Tax Credit (CTC),"Thinking abou
 -88) Missing / Did not report",,,Changed from EIP to CTC for Phase 3.2
 ,,Universe,CTC_YN = 1,,,
 ,,Internal Notes,,,,
-SPN4,EXPNS_DIF,Description,Difficulty with expenses,"In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2"
+SPN4,EXPNS_DIF,Description,Difficulty with expenses,"In the last 7 days, how difficult has it been for your household to pay for usual household expenses, including but not limited to food, rent or mortgage, car payments, medical expenses, student loans, and so on? Select only one answer.",1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Not at all difficult
 2) A little difficult
 3) Somewhat difficult
@@ -638,42 +638,42 @@ SPN4,EXPNS_DIF,Description,Difficulty with expenses,"In the last 7 days, how dif
 -88) Missing / Did not report",,,Modified to streamline series in 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN5,ACTIVITY1,Description,Worked onsite at a workplace,"In the last 7 days, have you or your household done any of the following… Worked onsite at a workplace?",1:2,3.2
+SPN5,ACTIVITY1,Description,Worked onsite at a workplace,"In the last 7 days, have you or your household done any of the following… Worked onsite at a workplace?",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Modified to streamline series in 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN5,ACTIVITY2,Description,Teleworked or worked from home,"In the last 7 days, have you or your household done any of the following… Teleworked or worked from home?",1:2,3.2
+SPN5,ACTIVITY2,Description,Teleworked or worked from home,"In the last 7 days, have you or your household done any of the following… Teleworked or worked from home?",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Modified to streamline series in 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN5,ACTIVITY3,Description,In-store shopping ,"In the last 7 days, have you or your household done any of the following… In-store shopping?",1:2,3.2
+SPN5,ACTIVITY3,Description,In-store shopping ,"In the last 7 days, have you or your household done any of the following… In-store shopping?",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Modified to streamline series in 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN5,ACTIVITY4,Description,Eating indoors at restaurants,"In the last 7 days, have you or your household done any of the following… Eating indoors at restaurants?",1:2,3.2
+SPN5,ACTIVITY4,Description,Eating indoors at restaurants,"In the last 7 days, have you or your household done any of the following… Eating indoors at restaurants?",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Modified to streamline series in 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN5,ACTIVITY5,Description,Had in-person medical or dental appointments,"In the last 7 days, have you or your household done any of the following… Had in-person medical or dental appointments?",1:2,3.2
+SPN5,ACTIVITY5,Description,Had in-person medical or dental appointments,"In the last 7 days, have you or your household done any of the following… Had in-person medical or dental appointments?",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,Modified to streamline series in 3.2
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-SPN5,ACTIVITY6,Description,Had in-home housekeeping or caregiving services,"In the last 7 days, have you or your household done any of the following… Had in-home housekeeping or caregiving services?",1:2,3.2
+SPN5,ACTIVITY6,Description,Had in-home housekeeping or caregiving services,"In the last 7 days, have you or your household done any of the following… Had in-home housekeeping or caregiving services?",1:02,3.2
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -752,7 +752,7 @@ SPN6,SPND_SRC12,Description,Sources of income and funds for spending needs,"Thin
 -88) Missing / Did not report",,,Started in cycle 7
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-FD1,CURFOODSUF,Description,Household food sufficiency for last 7 days,"Getting enough food can also be a problem for some people.  In the last 7 days, which of these statements best describes the food eaten in your household? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2"
+FD1,CURFOODSUF,Description,Household food sufficiency for last 7 days,"Getting enough food can also be a problem for some people.  In the last 7 days, which of these statements best describes the food eaten in your household? Select only one answer.",1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Enough of the kinds of food (I/we) wanted to eat 
 2) Enough, but not always the kinds of food (I/we) wanted to eat
 3) Sometimes not enough to eat
@@ -763,7 +763,7 @@ FD1,CURFOODSUF,Description,Household food sufficiency for last 7 days,"Getting e
 ,,Internal Notes,,,,
 FD2,CHILDFOOD,Description,Children not eating enough because we couldn't afford enough food,"Please indicate whether the next statement was often true, sometimes true, or never true in the last 7 days for the children living in your household who are under 18 years old.  
 
-""The children were not eating enough because we just couldn't afford enough food.""",1:3,"1, 2, 3, 3.1, 3.2"
+""The children were not eating enough because we just couldn't afford enough food.""",1:03,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Often true
 2) Sometimes true
 3) Never true
@@ -804,7 +804,7 @@ apply. - Couldn’t get groceries or meals delivered to me","<blank>,1","1, 2, 3
 ,,Universe,"If CURFOODSUF in (2, 3, 4)",,,
 ,,Internal Notes,This is an exclusive category,,,
 FD4,FREEFOOD,Description,"During the last 7 days, did you or anyone in your household get free groceries or a free meal?","During the last 7 days, did you or anyone in your household get free groceries from a food pantry, food bank, church, or other place that helps with free food? 
-Select only one answer.",1:2,"1, 2, 3, 3.1, 3.2"
+Select only one answer.",1:02,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -846,7 +846,7 @@ FD5,NOSCHLFDHLP,Description,School food - Did not receive free meals or food ass
 Phase 3.2 combined with schlfood and moved to food section"
 ,,Universe,If HHLD_NUMKID > 0,,,
 ,,Internal Notes,EXCLUSIVE OF CATEGORIES 1-4,,,
-FD6,SNAP_YN,Description,SNAP Receipt,Do you or does anyone in your household receive benefits from the Supplemental Nutrition Assistance Program (SNAP) or the Food Stamp Program? Select only one answer.,1:2,"1, 2, 3, 3.1, 3.2"
+FD6,SNAP_YN,Description,SNAP Receipt,Do you or does anyone in your household receive benefits from the Supplemental Nutrition Assistance Program (SNAP) or the Food Stamp Program? Select only one answer.,1:02,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -855,7 +855,7 @@ FD6,SNAP_YN,Description,SNAP Receipt,Do you or does anyone in your household rec
 ,,Internal Notes,,,,
 HLTH1,ANXIOUS,Description,Frequency of anxiety over previous 2 weeks,"Next, we will ask about health and medical care. 
 
-Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2"
+Over the last 2 weeks, how often have you been bothered by feeling nervous, anxious, or on edge? Select only one answer.",1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Not at all
 2) Several days
 3) More than half the days
@@ -864,7 +864,7 @@ Over the last 2 weeks, how often have you been bothered by feeling nervous, anxi
 -88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH2,WORRY,Description,Frequency of worry over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by the not being able to stop or control worrying? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2"
+HLTH2,WORRY,Description,Frequency of worry over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by the not being able to stop or control worrying? Select only one answer.",1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Not at all
 2) Several days
 3) More than half the days
@@ -873,7 +873,7 @@ HLTH2,WORRY,Description,Frequency of worry over previous 2 weeks,"Over the last 
 -88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH3,INTEREST,Description,Frequency of having little interest in things over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by having little interest or pleasure in doing things? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2"
+HLTH3,INTEREST,Description,Frequency of having little interest in things over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by having little interest or pleasure in doing things? Select only one answer.",1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Not at all
 2) Several days
 3) More than half the days
@@ -882,7 +882,7 @@ HLTH3,INTEREST,Description,Frequency of having little interest in things over pr
 -88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH4,DOWN,Description,Frequency of feeling depressed over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless? Select only one answer.",1:4,"1, 2, 3, 3.1, 3.2"
+HLTH4,DOWN,Description,Frequency of feeling depressed over previous 2 weeks,"Over the last 2 weeks, how often have you been bothered by feeling down, depressed, or hopeless? Select only one answer.",1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Not at all
 2) Several days
 3) More than half the days
@@ -891,21 +891,21 @@ HLTH4,DOWN,Description,Frequency of feeling depressed over previous 2 weeks,"Ove
 -88) Missing / Did not report",,,Phase 3.2 modifed to 'last 2 weeks'
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH5,PRESCRIPT,Description,Prescription mental health,"At any time in the last 4 weeks, did you take prescription medication to help you with any emotions or with your concentration, behavior or mental health? Select only one answer.",1:2,"2, 3, 3.1, 3.2"
+HLTH5,PRESCRIPT,Description,Prescription mental health,"At any time in the last 4 weeks, did you take prescription medication to help you with any emotions or with your concentration, behavior or mental health? Select only one answer.",1:02,"2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH6,MH_SVCS,Description,Mental health services,"At any time in the last 4 weeks, did you receive counseling or therapy from a mental health professional such as a psychiatrist, psychologist, psychiatric nurse, or clinical social worker? Include couseling or therapy online or by phone. Select only one answer.",1:2,"2, 3, 3.1, 3.2"
+HLTH6,MH_SVCS,Description,Mental health services,"At any time in the last 4 weeks, did you receive counseling or therapy from a mental health professional such as a psychiatrist, psychologist, psychiatric nurse, or clinical social worker? Include couseling or therapy online or by phone. Select only one answer.",1:02,"2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH7,MH_NOTGET,Description,Mental health not get,"At any time in the last 4 weeks, did you need counseling or therapy from a mental health professional, but DID NOT GET IT for any reason? Select only one answer.",1:2,"2, 3, 3.1, 3.2"
+HLTH7,MH_NOTGET,Description,Mental health not get,"At any time in the last 4 weeks, did you need counseling or therapy from a mental health professional, but DID NOT GET IT for any reason? Select only one answer.",1:02,"2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -976,7 +976,7 @@ HLTH8,HLTHINS8,Description,Health Insurance Coverage- Other,"Are you currently c
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HLTH9,TELEHLTH,Description,Your use of telehealth / telemedicine,"At any time in the last 4 weeks, did you have an appointment with a doctor, nurse, or other health professional by video or by phone? Please only include appointments for yourself and not others in your household.",1:2,"3.1, 3.2"
+HLTH9,TELEHLTH,Description,Your use of telehealth / telemedicine,"At any time in the last 4 weeks, did you have an appointment with a doctor, nurse, or other health professional by video or by phone? Please only include appointments for yourself and not others in your household.",1:02,"3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -997,7 +997,7 @@ HLTH10,TH_ADLT_VID,Description,Video appointments,Did the appointment(s) take pl
 Modified for 3.2 to split into two categories"
 ,,Universe,TELEHLTH = 1,,,
 ,,Internal Notes,,,,
-HLTH11,TELECHLD,Description,Childrens use of telehealth / telemedicine,"At any time in the last 4 weeks, did any children in the household have an appointment with a doctor, nurse, or other health professional by video or by phone?",1:2,"3.1, 3.2"
+HLTH11,TELECHLD,Description,Childrens use of telehealth / telemedicine,"At any time in the last 4 weeks, did any children in the household have an appointment with a doctor, nurse, or other health professional by video or by phone?",1:02,"3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
@@ -1020,7 +1020,7 @@ Modified for 3.2 to split into two categories"
 ,,Internal Notes,,,,
 HLTH13,PRVNTIVE,Description,Children missed or delayed preventive check-ups,"The next question is about preventative health care for the children in your household.
 
-At any time in the last 12 months, did any children in the household miss, delay or skip any PREVENTIVE check-ups because of the coronavirus pandemic?",1:3,"3.1, 3.2"
+At any time in the last 12 months, did any children in the household miss, delay or skip any PREVENTIVE check-ups because of the coronavirus pandemic?",1:03,"3.1, 3.2"
 ,,Values,"1) Yes, all children had a preventive check-up
 2) Some, but not all, children had a preventive check-up
 3) None of the children had a preventive check-up
@@ -1028,7 +1028,7 @@ At any time in the last 12 months, did any children in the household miss, delay
 -88) Missing / Did not report",,,Phase 3.2 change to 3 categories.
 ,,Universe,THHLD_NUMKID > 0 ,,,
 ,,Internal Notes,,,,
-DIS1,SEEING,Description,Limitations in seeing,"Do you have difficulty seeing, even when wearing glasses? Select one.",1:4,"3.1, 3.2"
+DIS1,SEEING,Description,Limitations in seeing,"Do you have difficulty seeing, even when wearing glasses? Select one.",1:04,"3.1, 3.2"
 ,,Values,"1) No - no difficulty
 2) Yes - some difficulty
 3) Yes - a lot of difficulty
@@ -1037,7 +1037,7 @@ DIS1,SEEING,Description,Limitations in seeing,"Do you have difficulty seeing, ev
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-DIS2,HEARING,Description,Limitations in hearing,"Do you have difficulty hearing, even when using a hearing aid? Select one.",1:4,"3.1, 3.2"
+DIS2,HEARING,Description,Limitations in hearing,"Do you have difficulty hearing, even when using a hearing aid? Select one.",1:04,"3.1, 3.2"
 ,,Values,"1) No - no difficulty
 2) Yes - some difficulty
 3) Yes - a lot of difficulty
@@ -1046,7 +1046,7 @@ DIS2,HEARING,Description,Limitations in hearing,"Do you have difficulty hearing,
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-DIS3,REMEMBERING,Description,Limitations in remembering or concentrating,Do you have difficulty remembering or concentrating? Select one.,1:4,"3.1, 3.2"
+DIS3,REMEMBERING,Description,Limitations in remembering or concentrating,Do you have difficulty remembering or concentrating? Select one.,1:04,"3.1, 3.2"
 ,,Values,"1) No - no difficulty
 2) Yes - some difficulty
 3) Yes - a lot of difficulty
@@ -1055,7 +1055,7 @@ DIS3,REMEMBERING,Description,Limitations in remembering or concentrating,Do you 
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-DIS4,MOBILITY,Description,Limitations in mobility,Do you have difficulty walking or climbing stairs? Select one.,1:4,"3.1, 3.2"
+DIS4,MOBILITY,Description,Limitations in mobility,Do you have difficulty walking or climbing stairs? Select one.,1:04,"3.1, 3.2"
 ,,Values,"1) No - no difficulty
 2) Yes - some difficulty
 3) Yes - a lot of difficulty
@@ -1064,7 +1064,7 @@ DIS4,MOBILITY,Description,Limitations in mobility,Do you have difficulty walking
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HSE1,TENURE,Description,Housing owned or rented,Is your house or apartment…? Select only one answer.,1:4,"1, 2, 3, 3.1, 3.2"
+HSE1,TENURE,Description,Housing owned or rented,Is your house or apartment…? Select only one answer.,1:04,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Owned by you or someone in this household free and clear?
 2) Owned by your or someone in this household with a mortgage or loan (including home equity loans)?
 3) Rented?
@@ -1073,7 +1073,7 @@ HSE1,TENURE,Description,Housing owned or rented,Is your house or apartment…? S
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HSE2,LIVQTRRV,Description,Building Type,"Which best describes this building? Include all apartments, flats, etc., even if vacant. Select only one answer.",1:7,"2, 3, 3.1, 3.2"
+HSE2,LIVQTRRV,Description,Building Type,"Which best describes this building? Include all apartments, flats, etc., even if vacant. Select only one answer.",1:07,"2, 3, 3.1, 3.2"
 ,,Values,"1) A mobile home 
 2) A one-family house detached from any other house 
 3) A one-family house attached to one or more houses 
@@ -1087,21 +1087,21 @@ HSE2,LIVQTRRV,Description,Building Type,"Which best describes this building? Inc
 03/22/2021 - Categories collapsed from 10 to 7 response options."
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HSE3,RENTCUR,Description,Caught up on rent,Is this household currently caught up on rent payments? Select only one answer.,1:2,"2, 3, 3.1, 3.2"
+HSE3,RENTCUR,Description,Caught up on rent,Is this household currently caught up on rent payments? Select only one answer.,1:02,"2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,
 ,,Universe,If TENURE = 3,,,
 ,,Internal Notes,,,,
-HSE4,MORTCUR,Description,Caught up on mortgage,Is this household currently caught up on mortgage payments? Select only one answer.,1:2,"2, 3, 3.1, 3.2"
+HSE4,MORTCUR,Description,Caught up on mortgage,Is this household currently caught up on mortgage payments? Select only one answer.,1:02,"2, 3, 3.1, 3.2"
 ,,Values,"1) Yes
 2) No
 -99) Question seen but category not selected
 -88) Missing / Did not report",,,
 ,,Universe,If TENURE = 2,,,
 ,,Internal Notes,,,,
-HSE5,MORTCONF,Description,Confidence in ability to pay mortgage or rent next month,How confident are you that your household will be able to pay your next rent or mortgage payment on time? Select only one answer.,1:5,"1, 2, 3, 3.1, 3.2"
+HSE5,MORTCONF,Description,Confidence in ability to pay mortgage or rent next month,How confident are you that your household will be able to pay your next rent or mortgage payment on time? Select only one answer.,1:05,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Not at all confident
 2) Slightly confident
 3) Moderately confident
@@ -1115,7 +1115,7 @@ HSE6,TMNTHSBHND,Description,Months behind in rent or mortgage,How many months be
 ,,Values,(0-48) number of months (whole number),,,
 ,,Universe,If RENTCUR = 2 or MORTCUR = 2,,,
 ,,Internal Notes,,,,
-HSE7,RENTASSIST,Description,Application for emergency rental assistance,Have you or anyone in your household applied for emergency rental assistance through your state or local government to cover your unpaid rent or utility bills?,1:4,3.2
+HSE7,RENTASSIST,Description,Application for emergency rental assistance,Have you or anyone in your household applied for emergency rental assistance through your state or local government to cover your unpaid rent or utility bills?,1:04,3.2
 ,,Values,"1) My household applied and received assistance
 2) My household applied and is waiting for a response
 3) My household applied and the application was denied
@@ -1124,7 +1124,7 @@ HSE7,RENTASSIST,Description,Application for emergency rental assistance,Have you
 -88) Missing / Did not report",,,
 ,,Universe,If RENTCUR = 2,,,
 ,,Internal Notes,,,,
-HSE8,EVICT,Description,Eviction in next two months,How likely is it that your household will have to leave this home or apartment within the next two months because of eviction? Select only one answer.,1:4,"2, 3, 3.1, 3.2"
+HSE8,EVICT,Description,Eviction in next two months,How likely is it that your household will have to leave this home or apartment within the next two months because of eviction? Select only one answer.,1:04,"2, 3, 3.1, 3.2"
 ,,Values,"1) Very likely
 2) Somewhat likely
 3) Not very likely
@@ -1133,7 +1133,7 @@ HSE8,EVICT,Description,Eviction in next two months,How likely is it that your ho
 -88) Missing / Did not report",,,
 ,,Universe,If RENTCUR = 2,,,
 ,,Internal Notes,,,,
-HSE9,FORCLOSE,Description,Forclose in next two months,How likely is it that your household will have to leave this home within the next two months because of foreclosure? Select only one answer.,1:4,"2, 3, 3.1, 3.2"
+HSE9,FORCLOSE,Description,Forclose in next two months,How likely is it that your household will have to leave this home within the next two months because of foreclosure? Select only one answer.,1:04,"2, 3, 3.1, 3.2"
 ,,Values,"1) Very likely
 2) Somewhat likely
 3) Not very likely
@@ -1142,7 +1142,7 @@ HSE9,FORCLOSE,Description,Forclose in next two months,How likely is it that your
 -88) Missing / Did not report",,,
 ,,Universe,If MORTCUR = 2,,,
 ,,Internal Notes,,,,
-HSE10,ENERGY,Description,Trouble paying energy bill,"In the last 12 months, how many months did your household reduce or forego expenses for basic household necessities, such as medicine or food, in order to pay an energy bill?",1:4,3.2
+HSE10,ENERGY,Description,Trouble paying energy bill,"In the last 12 months, how many months did your household reduce or forego expenses for basic household necessities, such as medicine or food, in order to pay an energy bill?",1:04,3.2
 ,,Values,"1) Almost every month
 2) Some months
 3) 1 or 2 months
@@ -1151,7 +1151,7 @@ HSE10,ENERGY,Description,Trouble paying energy bill,"In the last 12 months, how 
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HSE11,HSE_TEMP,Description,Kept household at unsafe temp because of cost,"In the last 12 months, how many months did your household keep your home at a temperature that you felt was unsafe or unhealthy?",1:4,3.2
+HSE11,HSE_TEMP,Description,Kept household at unsafe temp because of cost,"In the last 12 months, how many months did your household keep your home at a temperature that you felt was unsafe or unhealthy?",1:04,3.2
 ,,Values,"1) Almost every month
 2) Some months
 3) 1 or 2 months
@@ -1160,7 +1160,7 @@ HSE11,HSE_TEMP,Description,Kept household at unsafe temp because of cost,"In the
 -88) Missing / Did not report",,,
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
-HSE12,ENRGY_BILL,Description,Unable to pay full energy bill,"In the last 12 months, how many times was your household unable to pay an energy bill or unable to pay the full bill amount?",1:4,3.2
+HSE12,ENRGY_BILL,Description,Unable to pay full energy bill,"In the last 12 months, how many times was your household unable to pay an energy bill or unable to pay the full bill amount?",1:04,3.2
 ,,Values,"1) Almost every month
 2) Some months
 3) 1 or 2 months
@@ -1295,7 +1295,7 @@ ED4,PSWHYCHG9,Description,Why did post-sec educ plans change?,Why did household 
 -88) Missing / Did not report",,,Phase 3.1 - Change in stem and category wording from 'this fall' to 'this term' 
 ,,Universe,If PSCHNG2 = 1 or PSCHNG3 = 1 or PSCHNG4 = 1 or PSCHNG5 = 1 or PSCHNG6 = 1 or PSCHNG7 = 1,,,
 ,,Internal Notes,,,,
-INC1,INCOME,Description,Total household income (before taxes),In 2020 what was your total household income before taxes? Select only one answer.,1:8,"1, 2, 3, 3.1, 3.2"
+INC1,INCOME,Description,Total household income (before taxes),In 2020 what was your total household income before taxes? Select only one answer.,1:08,"1, 2, 3, 3.1, 3.2"
 ,,Values,"1) Less than $25,000  
 2) $25,000 - $34,999  
 3) $35,000 - $49,999   
@@ -1308,42 +1308,42 @@ INC1,INCOME,Description,Total household income (before taxes),In 2020 what was y
 -88) Missing / Did not report",,,Phase 3.2 updated to ask about 2020 total household income
 ,,Universe,All person's born before 2003,,,
 ,,Internal Notes,,,,
--,ABIRTH_YEAR,Description,Year of birth allocation flag,,1:2,
+-,ABIRTH_YEAR,Description,Year of birth allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
--,AGENID_BIRTH,Description,Gender at birth allocation flag,,1:2,
+-,AGENID_BIRTH,Description,Gender at birth allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
--,AHISPANIC,Description,Hispanic origin allocation flag,,1:2,
+-,AHISPANIC,Description,Hispanic origin allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
--,ARACE,Description,Race allocation flag,,1:2,
+-,ARACE,Description,Race allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation using the full set of mark all race categories prior to recode.  ,,,
--,AEDUC,Description,Educational attainment allocation flag,,1:2,
+-,AEDUC,Description,Educational attainment allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation prior to top/bottom coding.  ,,,
--,AHHLD_NUMPER,Description,Household size allocation flag,,1:2,
+-,AHHLD_NUMPER,Description,Household size allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation with ratio to set proportion of adults and children prior to top/bottom coding.  ,,,
--,AHHLD_NUMKID,Description,Number of children allocation flag,,1:2,
+-,AHHLD_NUMKID,Description,Number of children allocation flag,,1:02,
 ,,Values,"1) Imputed
 2) Not imputed",,,
 ,,Universe,All persons,,,
 ,,Internal Notes,Hot deck imputation with ratio to set proportion of adults and children prior to top/bottom coding.  ,,,
--,EST_ST,Description,State,,01-56,
+-,EST_ST,Description,State,,Jan-56,
 ,,Values,"                    '01'='Alabama'
                     '02'='Alaska'
                     '04'='Arizona'
