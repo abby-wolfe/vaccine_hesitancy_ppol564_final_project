@@ -1,1 +1,4 @@
 # vaccine_hesitancy_ppol564_final_project
+
+The aim of this project is to deduce the significance of reasons why some people in the United States have not chosen to obtain a COVID-19 vaccine, particularly the significance of an echo chamber effect. This will be executed by analyzing survey responses and state level COVID-19 vaccination data relative to likelihood of survey respondents to get the COVID-19 vaccine. 
+This repository includes two datasets - one from the CDC containing state and date level data on COVID-19 vaccination rates and another from phase 3.2 of the Census Bureau's Household Pulse Survey which contains survey responses about the impact that the COVID-19 pandemic has had on the public as well as its codebook. It also contains an initial project proposal, mid-project presentation slides, a document containing initial code exploration, and the final paper, all of which is written up in Jupyter notebooks.
